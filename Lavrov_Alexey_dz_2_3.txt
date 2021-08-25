@@ -1,0 +1,117 @@
+Microsoft Windows [Version 10.0.17763.2114]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2018. Все права защищены.
+
+o:\2021-08-09 - Основы реляционных баз данных. MySQL\Lavrov_Alexey_dz_2>mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 41
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SOURCE Lavrov_Alexey_dz_2_3.sql
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 4 rows affected (0.01 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++--------------------+
+| Database           |
++--------------------+
+| example            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sample             |
+| sys                |
+| world              |
++--------------------+
+8 rows in set (0.00 sec)
+
++------------------+
+| Tables_in_sample |
++------------------+
+| users            |
++------------------+
+1 row in set (0.00 sec)
+
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int         | YES  |     | NULL    |       |
+| name  | varchar(50) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
++------+-----------------+
+| id   | name            |
++------+-----------------+
+|    1 | Vladimir Putin  |
+|    2 | Sergey Schoygu  |
+|    3 | Elena Kovalenko |
+|    4 | Kirill Ivanov   |
++------+-----------------+
+4 rows in set (0.00 sec)
+
+mysql>
