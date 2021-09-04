@@ -1,7 +1,0 @@
-Microsoft Windows [Version 6.1.7601]
-(c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.
-
-
-d:\mysql_test>mysqldump --where="1 ORDER BY help_keyword_id LIMIT 100" mysql help_keyword > d:\mysql_test\dump_mysql.help_keyword_first100.sql
-
-d:\mysql_test>
