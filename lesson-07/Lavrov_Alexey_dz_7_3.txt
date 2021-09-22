@@ -1,0 +1,54 @@
+mysql> SOURCE Lavrov_Alexey_dz_7_3.sql;
+
+Query OK, 2 rows affected (0.17 sec)
+
+Query OK, 1 row affected (0.07 sec)
+
+Database changed
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (1.27 sec)
+
+Query OK, 5 rows affected (0.02 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.30 sec)
+
+Query OK, 5 rows affected (0.03 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++----+----------+---------+
+| id | fl_from  | fl_to   |
++----+----------+---------+
+|  1 | moscow   | omsk    |
+|  2 | novgorod | kazan   |
+|  3 | irkutsk  | moscow  |
+|  4 | omsk     | irkutsk |
+|  5 | moscow   | kazan   |
++----+----------+---------+
+5 rows in set (0.00 sec)
+
++----+------------------+----------------+
+| id | flight_from      | flight_to      |
++----+------------------+----------------+
+|  1 | Москва           | Омск           |
+|  2 | Новгород         | Казань         |
+|  3 | Иркутск          | Москва         |
+|  4 | Омск             | Иркутск        |
+|  5 | Москва           | Казань         |
++----+------------------+----------------+
+5 rows in set (0.00 sec)
+
++----+------------------+----------------+
+| id | flight_from      | flight_to      |
++----+------------------+----------------+
+|  1 | Москва           | Омск           |
+|  2 | Новгород         | Казань         |
+|  3 | Иркутск          | Москва         |
+|  4 | Омск             | Иркутск        |
+|  5 | Москва           | Казань         |
++----+------------------+----------------+
+5 rows in set (0.00 sec)
