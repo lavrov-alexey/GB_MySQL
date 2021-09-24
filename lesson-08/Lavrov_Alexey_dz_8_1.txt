@@ -1,0 +1,172 @@
+mysql> \. db_vk_create_fill.sql
+
+Query OK, 11 rows affected (2.70 sec)
+
+Query OK, 1 row affected (0.09 sec)
+
+Database changed
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.66 sec)
+
+Query OK, 15 rows affected (0.05 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+Query OK, 0 rows affected (0.39 sec)
+
+Query OK, 15 rows affected (0.03 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.51 sec)
+
+Query OK, 15 rows affected (0.03 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.51 sec)
+
+Query OK, 15 rows affected (0.04 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 0 rows affected (0.53 sec)
+
+Query OK, 4 rows affected (0.05 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+Query OK, 0 rows affected (0.41 sec)
+
+Query OK, 15 rows affected (0.06 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+
+Query OK, 0 rows affected (0.36 sec)
+
+Query OK, 5 rows affected (0.04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.61 sec)
+
+Query OK, 15 rows affected (0.04 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected, 1 warning (0.25 sec)
+
+Query OK, 3 rows affected (0.04 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.37 sec)
+
+Query OK, 3 rows affected (0.04 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.72 sec)
+
+Query OK, 50 rows affected (0.07 sec)
+Records: 50  Duplicates: 0  Warnings: 0
+
+
+
+
+mysql> SOURCE Lavrov_Alexey_dz_7_1.sql
+
+Database changed
+
+Query OK, 0 rows affected (0.00 sec)
+
++---------------+
+| @choosen_user |
++---------------+
+|             7 |
++---------------+
+1 row in set (0.00 sec)
+
++----+--------------+------------+--------------------------------------+--------------+---------------------+---------------------+
+| id | from_user_id | to_user_id | txt                                  | is_delivered | created_at          | updated_at          |
++----+--------------+------------+--------------------------------------+--------------+---------------------+---------------------+
+|  1 |           14 |          7 | mauris sit amet lorem semper auctor. |            0 | 2019-10-22 01:52:09 | 2021-05-14 10:18:32 |
+|  7 |           15 |          7 | aliquam                              |            1 | 2020-07-31 17:53:38 | 2020-10-02 05:59:21 |
++----+--------------+------------+--------------------------------------+--------------+---------------------+---------------------+
+2 rows in set (0.00 sec)
+
+Query OK, 100 rows affected (0.32 sec)
+Records: 100  Duplicates: 0  Warnings: 0
+
++-----+--------------+------------+------------------------------------------------------------------------------+--------------+---------------------+---------------------+
+| id  | from_user_id | to_user_id | txt                                                                          | is_delivered | created_at          | updated_at          |
++-----+--------------+------------+------------------------------------------------------------------------------+--------------+---------------------+---------------------+
+|   1 |           14 |          7 | mauris sit amet lorem semper auctor.                                         |            0 | 2019-10-22 01:52:09 | 2021-05-14 10:18:32 |
+|   7 |           15 |          7 | aliquam                                                                      |            1 | 2020-07-31 17:53:38 | 2020-10-02 05:59:21 |
+|  19 |            3 |          7 | nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus      |            0 | 2013-05-08 14:19:07 | 2016-05-19 18:28:52 |
+|  22 |            9 |          7 | erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam       |            1 | 2016-04-28 20:26:34 | 2016-08-16 03:03:22 |
+|  43 |            1 |          7 | Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus. |            1 | 2014-01-30 11:01:45 | 2018-02-01 07:46:05 |
+|  54 |            9 |          7 | neque. Nullam ut nisi                                                        |            1 | 2013-12-28 02:26:06 | 2016-05-14 00:32:15 |
+|  65 |           11 |          7 | aliquam eros turpis                                                          |            0 | 2019-01-03 18:56:20 | 2017-03-25 02:54:35 |
+|  83 |            4 |          7 | luctus lobortis. Class aptent                                                |            1 | 2013-03-29 20:03:42 | 2018-10-30 06:59:46 |
+|  88 |            1 |          7 | Donec vitae erat                                                             |            1 | 2019-07-31 16:43:11 | 2019-12-24 17:03:38 |
+| 102 |            6 |          7 | lobortis quis, pede. Suspendisse                                             |            1 | 2015-10-19 20:03:31 | 2021-06-29 11:24:48 |
++-----+--------------+------------+------------------------------------------------------------------------------+--------------+---------------------+---------------------+
+10 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++--------------+
+| @max_cnt_msg |
++--------------+
+|            2 |
++--------------+
+1 row in set (0.00 sec)
+
++----------------+--------------+
+| count_messages | from_user_id |
++----------------+--------------+
+|              2 |            9 |
+|              2 |            1 |
++----------------+--------------+
+2 rows in set (0.00 sec)
+
++----+------------+-----------+------------------------------------------------+-------------+-----------+-----------+---------------+
+| id | first_name | last_name | email                                          | phone       | gender    | city      | country       |
++----+------------+-----------+------------------------------------------------+-------------+-----------+-----------+---------------+
+|  1 | Christine  | Hamilton  | Mauris.quis.turpis@ullamcorperDuiscursus.co.uk | 86808518451 | female    | Glendon   | Uganda        |
+|  2 | Dillon     | Vega      | commodo.auctor@feugiattellus.com               | 83996424887 | uncertain | Cod├│     | Montserrat    |
+|  3 | Phyllis    | Spears    | pharetra@ligula.net                            | 85336551607 | female    | B├иgles   | Sudan         |
+|  4 | Heather    | Henry     | at@nequevenenatislacus.org                     | 88045787980 | male      | Charny    | Paraguay      |
+|  5 | Allegra    | Bass      | montes.nascetur.ridiculus@eratsemperrutrum.org | 85409168326 | female    | Cromer    | Aruba         |
+|  6 | Lydia      | Grant     | tortor.at@eget.org                             | 85229614139 | female    | Colorno   | South Africa  |
+|  7 | Isaac      | Pruitt    | sit.amet@mipede.ca                             | 81654481360 | male      | Goderich  | South Sudan   |
+|  8 | Axel       | Carpenter | mauris.erat@pedenonummyut.edu                  | 81589693137 | female    | Lauder    | Nigeria       |
+|  9 | Gavin      | Snider    | dolor.Fusce@milacinia.net                      | 82540847088 | uncertain | Bhakkar   | Gibraltar     |
+| 10 | Flynn      | Chambers  | pellentesque.Sed@varius.net                    | 86371025942 | female    | Moignelee | Peru          |
+| 11 | Ila        | Ingram    | gravida@ProinmiAliquam.ca                      | 86028079096 | male      | Khuzdar   | Thailand      |
+| 12 | Hiroko     | Berger    | ut.lacus.Nulla@duiSuspendisseac.net            | 84689593278 | female    | Cuddapah  | Faroe Islands |
+| 13 | Riley      | Carey     | Quisque.ornare.tortor@nisiMaurisnulla.com      | 82657717416 | uncertain | Columbus  | Kazakhstan    |
+| 14 | Imogene    | Neal      | ut.pharetra.sed@feugiat.net                    | 89250266834 | male      | Atlanta   | Guam          |
+| 15 | Noah       | Peters    | Donec@Sedid.net                                | 83967595343 | uncertain | Gavorrano | Libya         |
++----+------------+-----------+------------------------------------------------+-------------+-----------+-----------+---------------+
+15 rows in set (0.01 sec)
+
++----------------+--------------+--------------------+-----------+-----------+---------+------------------------------------------------+-------------+
+| count_messages | from_user_id | name               | gender    | country   | city    | email                                          | phone       |
++----------------+--------------+--------------------+-----------+-----------+---------+------------------------------------------------+-------------+
+|              2 |            1 | Hamilton Christine | female    | Uganda    | Glendon | Mauris.quis.turpis@ullamcorperDuiscursus.co.uk | 86808518451 |
+|              2 |            9 | Snider Gavin       | uncertain | Gibraltar | Bhakkar | dolor.Fusce@milacinia.net                      | 82540847088 |
++----------------+--------------+--------------------+-----------+-----------+---------+------------------------------------------------+-------------+
+2 rows in set (0.00 sec)

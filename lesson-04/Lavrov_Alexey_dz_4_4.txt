@@ -1,0 +1,42 @@
+mysql> USE vk;
+Database changed
+
+mysql> UPDATE messages
+    ->  SET created_at = NOW() + INTERVAL 1 HOUR
+    ->  WHERE id = 1;
+Query OK, 1 row affected (0.05 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE messages
+    ->  SET created_at = NOW() + INTERVAL 1 DAY
+    ->  WHERE id = 2;
+Query OK, 1 row affected (0.12 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> UPDATE messages
+    ->  SET updated_at = NOW() + INTERVAL 1 MONTH
+    ->  WHERE id = 3;
+Query OK, 1 row affected (0.06 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM messages
+    ->  WHERE (TIMESTAMPDIFF(SECOND, created_at, NOW()) < 0)
+    ->          OR (TIMESTAMPDIFF(SECOND, updated_at, NOW()) < 0);
++----+--------------+------------+-----+--------------+---------------------+---------------------+
+| id | from_user_id | to_user_id | txt | is_delivered | created_at          | updated_at          |
++----+--------------+------------+-----+--------------+---------------------+---------------------+
+|  1 |            2 |          4 | ac  |            1 | 2021-09-09 22:51:56 | 2021-09-09 21:51:56 |
+|  2 |            2 |          4 | ac  |            1 | 2021-09-10 21:52:07 | 2021-09-09 21:52:07 |
+|  3 |            2 |          4 | ac  |            1 | 2020-01-26 04:01:09 | 2021-10-09 21:52:16 |
++----+--------------+------------+-----+--------------+---------------------+---------------------+
+3 rows in set (0.00 sec)
+
+mysql> DELETE FROM messages
+    ->  WHERE (TIMESTAMPDIFF(SECOND, created_at, NOW()) < 0)
+    ->          OR (TIMESTAMPDIFF(SECOND, updated_at, NOW()) < 0);
+Query OK, 3 rows affected (0.06 sec)
+
+mysql> SELECT * FROM messages
+    ->  WHERE (TIMESTAMPDIFF(SECOND, created_at, NOW()) < 0)
+    ->          OR (TIMESTAMPDIFF(SECOND, updated_at, NOW()) < 0);
+Empty set (0.00 sec)

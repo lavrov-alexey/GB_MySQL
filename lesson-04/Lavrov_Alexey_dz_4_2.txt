@@ -1,0 +1,49 @@
+mysql> \. Lavrov_Alexey_dz_4_2.sql
+
+Database changed
+
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 2  Changed: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 2  Changed: 0  Warnings: 0
+
++----+------------+-----------+------------------------------------------------+-------------+-------------------------------------------------------------------+---------------------+
+| id | first_name | last_name | email                                          | phone       | password_hash                                                     | created_at          |
++----+------------+-----------+------------------------------------------------+-------------+-------------------------------------------------------------------+---------------------+
+|  1 | Alex       | Hamilton  | Mauris.quis.turpis@ullamcorperDuiscursus.co.uk | 86808518451 | WPA53SXR6VVEHY97AHX2QHTWF43XTA3FYOJG29WAJ5FDGUR54VHK4AHLHG76HOB6G | 2021-01-13 23:15:51 |
+|  2 | Alex       | Vega      | commodo.auctor@feugiattellus.com               | 83996424887 | NTQ20SAY1VPCYP83VQJ0BNULF77OJJ1LKNGY01MUB5WNPPJ35KVO3WTMYQ34JPO5K | 2020-12-30 05:50:50 |
+|  3 | Amos       | Spears    | pharetra@ligula.net                            | 85336551607 | YPT77WLQ8WZEEP28CBT8JWCYD11OSL4ZFAEU57ZGQ2XNHJK82NBT6NQHRC82FWR1J | 2020-09-20 11:07:34 |
+|  4 | Heather    | Henry     | at@nequevenenatislacus.org                     | 88045787980 | UDP31PYO4OUYLZ46LUW3VKDQW49XKC8QBRFA16VRI5VJNPN95NPS5PCSXK52NMF1W | 2021-07-25 19:46:51 |
+|  5 | Allegra    | Bass      | montes.nascetur.ridiculus@eratsemperrutrum.org | 85409168326 | MYY93KRR4LYUDQ12FMD5DFNNV24PLI4MUXNZ17QEA2YSKGX44YQD4CRMBY19OPR4K | 2020-11-20 03:25:59 |
+|  6 | Lydia      | Grant     | tortor.at@eget.org                             | 85229614139 | UDV71NFW9EMMPU52MRA0KBNGP78EQL5OYBAQ08APR7DJGHH58LQB8LJMRH16QRZ5T | 2021-05-03 07:25:17 |
+|  7 | Isaac      | Pruitt    | sit.amet@mipede.ca                             | 81654481360 | KRU77UGE5NXXJX26FTO1YJMLA81XOI9TROED92ZZX2JRBDI82AKN2ALQBC61TSM0I | 2021-01-31 19:02:47 |
+|  8 | Axel       | Carpenter | mauris.erat@pedenonummyut.edu                  | 81589693137 | EIJ66ZGI0ISWHF61UOW2SKWYI11JAJ5TLRXR05NKJ1JHSWN50GIC6RSZPO90XIM3N | 2021-03-09 00:55:59 |
+|  9 | Gavin      | Snider    | dolor.Fusce@milacinia.net                      | 82540847088 | SAJ35MHV5ERIFQ60RMA6GEKHZ73PSQ1YKGSW62ALE5JSQIP98GOG1PDQBF83WJW6Z | 2021-09-02 18:20:37 |
+| 10 | Flynn      | Chambers  | pellentesque.Sed@varius.net                    | 86371025942 | HXM06BDW2VJGEN53OCG5ZUWTJ06VHR4HLYCP24CFM5PINOE53OXO9YWRBB43WSU5J | 2021-03-04 13:35:00 |
+| 11 | Ila        | Ingram    | gravida@ProinmiAliquam.ca                      | 86028079096 | QAD02ZIO0XDRMG56TVV1JTSXZ76USU4NWYWB01TWE4QXZJI17JZN8RGGEH36KKE5J | 2020-12-08 05:56:27 |
+| 12 | Hiroko     | Berger    | ut.lacus.Nulla@duiSuspendisseac.net            | 84689593278 | WSF57OQY4FIEFP92DMD0XXKIR93XOB9FJZZE66NLU0FDMEX89VOS2BEWYK12KII8P | 2021-01-15 00:48:01 |
+| 13 | Riley      | Carey     | Quisque.ornare.tortor@nisiMaurisnulla.com      | 82657717416 | QUE94YHH1XSVAT47DNV0OATTG84HJL9ZCTSD90VMK7PYXQN76JKJ3FGLDK50VIE4I | 2021-07-25 08:39:18 |
+| 14 | Julia      | Neal      | ut.pharetra.sed@feugiat.net                    | 89250266834 | NRS46EFM1RJCFB33PPN6GHAGN91SVS2KGHVT49OOD9LYZAQ00APF1LQZVN69OKF4O | 2021-06-12 21:20:35 |
+| 15 | Julia      | Peters    | Donec@Sedid.net                                | 83967595343 | LCB29WLE2OAPCP59WPO1AUCSN22WWT3FBODF87QYU5WHJPC23KXB8AUWJG83MCA4B | 2021-07-21 01:53:04 |
++----+------------+-----------+------------------------------------------------+-------------+-------------------------------------------------------------------+---------------------+
+15 rows in set (0.00 sec)
+
++------------+
+| first_name |
++------------+
+| Alex       |
+| Allegra    |
+| Amos       |
+| Axel       |
+| Flynn      |
+| Gavin      |
+| Heather    |
+| Hiroko     |
+| Ila        |
+| Isaac      |
+| Julia      |
+| Lydia      |
+| Riley      |
++------------+
+13 rows in set (0.00 sec)
