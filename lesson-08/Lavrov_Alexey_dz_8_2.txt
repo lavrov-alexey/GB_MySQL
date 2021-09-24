@@ -1,0 +1,263 @@
+mysql> SOURCE db_vk_create_fill.sql
+
+Query OK, 11 rows affected (2.38 sec)
+
+Query OK, 1 row affected (0.05 sec)
+
+Database changed
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+Query OK, 0 rows affected (0.56 sec)
+
+Query OK, 15 rows affected (0.07 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.30 sec)
+
+Query OK, 15 rows affected (0.05 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.06 sec)
+
+Query OK, 0 rows affected (0.39 sec)
+
+Query OK, 15 rows affected (0.04 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.39 sec)
+
+Query OK, 15 rows affected (0.04 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+
+Query OK, 0 rows affected (0.32 sec)
+
+Query OK, 4 rows affected (0.05 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.44 sec)
+
+Query OK, 15 rows affected (0.05 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+Query OK, 0 rows affected (0.36 sec)
+
+Query OK, 5 rows affected (0.12 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.06 sec)
+
+Query OK, 0 rows affected (0.41 sec)
+
+Query OK, 15 rows affected (0.05 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected, 1 warning (0.29 sec)
+
+Query OK, 3 rows affected (0.06 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected (0.24 sec)
+
+Query OK, 3 rows affected (0.06 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+Query OK, 0 rows affected (0.43 sec)
+
+Query OK, 50 rows affected (0.06 sec)
+Records: 50  Duplicates: 0  Warnings: 0
+
+
+
+
+mysql> SOURCE Lavrov_Alexey_dz_8_2.sql
+
+Database changed
+
++----------------------+-----------------+------+-----+-------------------+-----------------------------------------------+
+| Field                | Type            | Null | Key | Default           | Extra                                         |
++----------------------+-----------------+------+-----+-------------------+-----------------------------------------------+
+| id                   | bigint unsigned | NO   | PRI | NULL              | auto_increment                                |
+| likes_type_target_id | int unsigned    | NO   | MUL | NULL              |                                               |
+| likes_target_id      | bigint unsigned | NO   | MUL | NULL              |                                               |
+| likes_types_id       | int unsigned    | NO   | MUL | NULL              |                                               |
+| from_user_id         | bigint unsigned | NO   | MUL | NULL              |                                               |
+| created_at           | datetime        | NO   |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED                             |
+| updated_at           | datetime        | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED on update CURRENT_TIMESTAMP |
++----------------------+-----------------+------+-----+-------------------+-----------------------------------------------+
+7 rows in set (0.00 sec)
+
++----+----------------------+-----------------+----------------+--------------+---------------------+---------------------+
+| id | likes_type_target_id | likes_target_id | likes_types_id | from_user_id | created_at          | updated_at          |
++----+----------------------+-----------------+----------------+--------------+---------------------+---------------------+
+|  1 |                    2 |               1 |              1 |            8 | 2020-06-01 07:31:44 | 2020-11-20 00:37:58 |
+|  2 |                    1 |              13 |              2 |            9 | 2020-01-29 22:10:38 | 2021-08-25 23:52:58 |
+|  3 |                    1 |               6 |              1 |            4 | 2020-08-21 02:11:38 | 2020-09-19 10:10:04 |
+|  4 |                    2 |              13 |              2 |           10 | 2020-04-09 22:51:07 | 2021-07-08 01:13:17 |
+|  5 |                    3 |              14 |              2 |           11 | 2020-07-03 00:46:58 | 2021-05-19 08:38:26 |
+|  6 |                    2 |              10 |              3 |            3 | 2019-10-12 00:17:47 | 2021-08-03 01:13:35 |
+|  7 |                    1 |              12 |              3 |           13 | 2020-01-10 02:56:16 | 2021-02-23 11:35:32 |
+|  8 |                    1 |              13 |              3 |            8 | 2020-01-01 19:59:49 | 2021-07-14 16:37:07 |
+|  9 |                    2 |              11 |              1 |            7 | 2019-09-03 20:47:18 | 2021-01-30 00:40:41 |
+| 10 |                    1 |               2 |              3 |            7 | 2019-12-13 13:49:30 | 2021-07-31 15:16:01 |
++----+----------------------+-----------------+----------------+--------------+---------------------+---------------------+
+10 rows in set (0.00 sec)
+
++----+----------+-------------+----------------+
+| id | target   | name        | name           |
++----+----------+-------------+----------------+
+| 15 | users    | Bull scheet | Peters Noah    |
+| 17 | users    | Bull scheet | Spears Phyllis |
+| 22 | users    | Bull scheet | Henry Heather  |
+| 28 | users    | Bull scheet | Carpenter Axel |
+| 40 | users    | Bull scheet | Neal Imogene   |
+| 43 | users    | Bull scheet | Vega Dillon    |
+|  1 | messages | Bull scheet | Carpenter Axel |
+|  9 | messages | Bull scheet | Pruitt Isaac   |
+| 26 | messages | Bull scheet | Neal Imogene   |
+| 41 | messages | Bull scheet | Peters Noah    |
++----+----------+-------------+----------------+
+10 rows in set (0.01 sec)
+
+Empty set (0.00 sec)
+
++----+
+| id |
++----+
+| 14 |
+| 11 |
+|  1 |
++----+
+3 rows in set (0.00 sec)
+
++-----+------------+
+| age | new_bd     |
++-----+------------+
+|   7 | 2021-09-24 |
++-----+------------+
+1 row in set (0.00 sec)
+
++---------+------------+------------+
+| user_id | old_bd     | new_bd     |
++---------+------------+------------+
+|      12 | 1974-07-03 | 2016-09-24 |
+|      15 | 1996-01-25 | 2015-09-24 |
+|       6 | 1998-04-10 | 2021-09-24 |
++---------+------------+------------+
+3 rows in set (0.00 sec)
+
+Query OK, 2 rows affected (0.16 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
++---------+--------+------------+----------+---------------+----------+------+
+| user_id | gender | birthday   | photo_id | country       | city     | age  |
++---------+--------+------------+----------+---------------+----------+------+
+|      11 | m      | 2021-09-24 |       90 | Thailand      | Khuzdar  |    0 |
+|      12 | f      | 2012-09-24 |        5 | Faroe Islands | Cuddapah |    9 |
++---------+--------+------------+----------+---------------+----------+------+
+2 rows in set (0.00 sec)
+
++----------+---------+----------+----------------+
+| likes_id | user_id | likes_to | bd_usr_lower10 |
++----------+---------+----------+----------------+
+|       21 |      12 | users    | 2012-09-24     |
+|       35 |      12 | users    | 2012-09-24     |
+|       43 |      11 | users    | 2021-09-24     |
++----------+---------+----------+----------------+
+3 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++--------------------------+
+| @cnt_likes_users_lower10 |
++--------------------------+
+|                        3 |
++--------------------------+
+1 row in set (0.00 sec)
+
++----------+----------+----------+------------+--------------+------------+
+| likes_id | likes_to | media_id | whom_media | whom_user_id | whom_bd    |
++----------+----------+----------+------------+--------------+------------+
+|       32 | media    |       10 |         11 |           11 | 2021-09-24 |
++----------+----------+----------+------------+--------------+------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++--------------------------------+
+| @cnt_likes_media_users_lower10 |
++--------------------------------+
+|                              1 |
++--------------------------------+
+1 row in set (0.00 sec)
+
++----------+----------+--------+----------+--------+-----------+------------+
+| likes_id | likes_to | msg_id | msg_from | msg_to | p_user_id | p_bd       |
++----------+----------+--------+----------+--------+-----------+------------+
+|        4 | messages |     13 |        3 |     12 |        12 | 2012-09-24 |
+|       46 | messages |     13 |        3 |     12 |        12 | 2012-09-24 |
+|       50 | messages |     13 |        3 |     12 |        12 | 2012-09-24 |
++----------+----------+--------+----------+--------+-----------+------------+
+3 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++-----------------------------------+
+| @cnt_likes_messages_users_lower10 |
++-----------------------------------+
+|                                 3 |
++-----------------------------------+
+1 row in set (0.00 sec)
+
++---------------------------+
+| total_likes_users_lower10 |
++---------------------------+
+|                         7 |
++---------------------------+
+1 row in set (0.00 sec)
+
++----+----------------------+-----------------+----------------+--------------+---------------------+---------------------+----+----------+---------+--------+------------+----------+---------------+-----------+----+---------+----------------+--------------------------+-----
+--+----+--------------+------------+----------------------------------------------------------------------+--------------+---------------------+---------------------+
+| id | likes_type_target_id | likes_target_id | likes_types_id | from_user_id | created_at          | updated_at          | id | target   | user_id | gender | birthday   | photo_id | country       | city      | id | user_id | media_types_id | file_name                | file
+  | id | from_user_id | to_user_id | txt                                                                  | is_delivered | created_at          | updated_at          |
++----+----------------------+-----------------+----------------+--------------+---------------------+---------------------+----+----------+---------+--------+------------+----------+---------------+-----------+----+---------+----------------+--------------------------+-----
+--+----+--------------+------------+----------------------------------------------------------------------+--------------+---------------------+---------------------+
+| 32 |                    1 |              10 |              1 |            6 | 2020-03-16 21:59:48 | 2020-12-24 06:27:38 |  1 | media    |      10 | f      | 1984-05-06 |       32 | Peru          | Moignelee | 10 |      11 |              4 | Sed congue,              |    7
+9 | 10 |            4 |         13 | nascetur ridiculus mus. Aenean eget magna. Suspendisse               |            0 | 2020-02-29 09:44:21 | 2021-08-16 14:26:16 |
+|  4 |                    2 |              13 |              2 |           10 | 2020-04-09 22:51:07 | 2021-07-08 01:13:17 |  2 | messages |      13 | x      | 1982-01-09 |       43 | Kazakhstan    | Columbus  | 13 |       7 |              4 | vitae                    |    6
+3 | 13 |            3 |         12 | Cum sociis                                                           |            1 | 2019-11-05 19:32:05 | 2020-12-23 02:30:58 |
+| 46 |                    2 |              13 |              3 |           15 | 2020-02-14 11:44:47 | 2021-05-01 12:29:57 |  2 | messages |      13 | x      | 1982-01-09 |       43 | Kazakhstan    | Columbus  | 13 |       7 |              4 | vitae                    |    6
+3 | 13 |            3 |         12 | Cum sociis                                                           |            1 | 2019-11-05 19:32:05 | 2020-12-23 02:30:58 |
+| 50 |                    2 |              13 |              3 |            5 | 2020-02-22 02:36:39 | 2021-07-19 08:46:13 |  2 | messages |      13 | x      | 1982-01-09 |       43 | Kazakhstan    | Columbus  | 13 |       7 |              4 | vitae                    |    6
+3 | 13 |            3 |         12 | Cum sociis                                                           |            1 | 2019-11-05 19:32:05 | 2020-12-23 02:30:58 |
+| 21 |                    3 |              12 |              3 |            2 | 2019-12-28 00:17:42 | 2021-01-15 09:51:25 |  3 | users    |      12 | f      | 2012-09-24 |        5 | Faroe Islands | Cuddapah  | 12 |       6 |              5 | malesuada vel, venenatis |    6
+6 | 12 |            5 |         10 | dolor. Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer       |            1 | 2019-09-28 12:12:18 | 2021-05-02 01:35:23 |
+| 35 |                    3 |              12 |              3 |           12 | 2019-10-03 17:25:32 | 2021-01-15 14:25:41 |  3 | users    |      12 | f      | 2012-09-24 |        5 | Faroe Islands | Cuddapah  | 12 |       6 |              5 | malesuada vel, venenatis |    6
+6 | 12 |            5 |         10 | dolor. Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer       |            1 | 2019-09-28 12:12:18 | 2021-05-02 01:35:23 |
+| 43 |                    3 |              11 |              1 |            2 | 2020-08-02 13:02:43 | 2021-01-04 14:19:34 |  3 | users    |      11 | m      | 2021-09-24 |       90 | Thailand      | Khuzdar   | 11 |      10 |              3 | luctus                   |    7
+6 | 11 |            4 |          4 | imperdiet, erat nonummy ultricies ornare, elit elit fermentum risus, |            1 | 2020-08-01 20:35:18 | 2020-10-15 11:39:18 |
++----+----------------------+-----------------+----------------+--------------+---------------------+---------------------+----+----------+---------+--------+------------+----------+---------------+-----------+----+---------+----------------+--------------------------+-----
+--+----+--------------+------------+----------------------------------------------------------------------+--------------+---------------------+---------------------+
+7 rows in set (0.00 sec)
+
++---------------------------+
+| total_likes_users_lower10 |
++---------------------------+
+|                         7 |
++---------------------------+
+1 row in set (0.00 sec)

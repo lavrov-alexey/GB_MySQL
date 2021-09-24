@@ -1,0 +1,21 @@
+mysql> \. Lavrov_Alexey_dz_8_3.sql
+
+Database changed
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++----------------+------------------+
+| @cnt_likes_men | @cnt_likes_women |
++----------------+------------------+
+|             17 |               20 |
++----------------+------------------+
+1 row in set (0.00 sec)
+
++---------------------------------------+
+| result_likes_men_women                |
++---------------------------------------+
+| More likes were put by women: 20 / 17 |
++---------------------------------------+
+1 row in set (0.00 sec)
